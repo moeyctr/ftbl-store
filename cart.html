@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FTBL Hype | Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="logo.png" alt="Logo" class="logo-img"> FTBL Hype</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="boots.html">Boots</a></li>
+        <li><a href="kits.html">Kits</a></li>
+        <li><a href="balls.html">Balls</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="active">Cart 🛒 <span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="cart-page">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+    <div id="cart-summary">
+      <p>Total: $<span id="cart-total">0</span></p>
+      <button id="checkout-button">Checkout</button>
+    </div>
+    <div id="checkout-message" class="hidden">
+      <p>✅ Thank you for your purchase! Your order has been processed.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 FTBL Hype. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
